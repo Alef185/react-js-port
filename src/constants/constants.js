@@ -48,7 +48,7 @@ export const projects = [
     title: 'Landing Page',
     description: "Aplicação Web de Chat feita a partir de react js, utilizando firebase para base de dados e chat engine",
     image: '/images/6.png',
-    tags: ['ReactJS', 'Firebase', 'CSS3', 'ChatEngine'],
+    tags: ['HTML5', 'CSS3',],
     source: 'https://landingpage-alefidev.vercel.app/',
     visit: 'https://github.com/Alef185/landingpage-css',
     id: 5,

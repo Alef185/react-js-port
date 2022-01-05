@@ -42,6 +42,7 @@ export const TitleContent = styled.div`
   font-weight: 600;
   font-size: 1.2em;
   padding-top: 10px;
+  
 `;
 
 export const HeaderThree = styled.h3`
@@ -113,6 +114,10 @@ padding: 2rem;
 `
 export const Tag = styled.li`
 color: #99baff;
+background: -webkit-linear-gradient(#eee, #333);
+background: -webkit-linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 font-weight: 600;
 font-size: 1.5rem;
 `

@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Tel</LinkTitle>
-          <LinkItem href="tel:314-343-3432">16-99615-2518</LinkItem>
+          <LinkItem href="tel:314-343-3432">(16)99615-2518</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -21,16 +21,16 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Araraquara, SP - Brasil</Slogan>
+          <Slogan>Álef de Souza Rosa. 2022. Araraquara, SP - Brasil</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Alef185">
+          <SocialIcons href="https://github.com/Alef185" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/alef-souza-rosa/">
+          <SocialIcons href="https://www.linkedin.com/in/alef-souza-rosa/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/alef_eu/">
+          <SocialIcons href="https://www.instagram.com/alef_eu/" target="_blank">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>

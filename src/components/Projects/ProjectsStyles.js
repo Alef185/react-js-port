@@ -39,14 +39,15 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-top: 10px;
 `;
 
-
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #fff;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -56,7 +57,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #fff;
 `;
 
 export const Intro = styled.div`
@@ -83,7 +84,6 @@ export const CardInfo = styled.p`
 }
 `;
 
-
 export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -93,15 +93,16 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#080808;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #e0e0e0;
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(158,158,158,1) 100%);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(158,158,158,1) 100%);
 }
 `;
 
@@ -111,6 +112,7 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #99baff;
+font-weight: 600;
 font-size: 1.5rem;
 `

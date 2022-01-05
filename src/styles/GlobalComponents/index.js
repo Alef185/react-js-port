@@ -78,13 +78,13 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 150px;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 70%)' :
+    'linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 70%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -167,8 +167,8 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '130px' : '242px'};
+  height: ${({ alt }) => alt ? '34px' : '44px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
@@ -177,10 +177,10 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(90deg, rgba(252,238,69,1) 0%, rgba(252,176,69,1) 37%, rgba(253,29,29,1) 100%)' : 'linear-gradient(90deg, rgba(252,238,69,1) 0%, rgba(252,176,69,1) 37%, rgba(253,29,29,1) 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
-  position: relative;
+  position: relative; 
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
 
@@ -209,7 +209,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 70%)' : 'linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 70%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};

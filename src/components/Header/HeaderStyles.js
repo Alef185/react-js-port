@@ -117,8 +117,8 @@ border-radius: 50px;
   padding: 8px;
 &:hover {
     background-color: #212d45;
+    background: linear-gradient(90deg, rgba(252,238,69,1) 0%, rgba(252,176,69,1) 37%, rgba(253,29,29,1) 100%);
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `

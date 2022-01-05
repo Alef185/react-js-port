@@ -46,12 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Sobre Mim</SectionTitle>
       <SectionText>
-      Tenho 18 anos, sou programador, Técnico em Desenvolvimento de Sistemas. Sempre gostei da programação e desde cedo minha curiosidade me levou a querer entender como as coisas funcionavam. Não me bastava apenas olhar para um computador e aceitar aquela ideia de bits e informações, e foi assim que comecei meus estudos.
-    Em 2014 comecei um curso introdutório à informática, e depois disso eu tive certeza do que queria aprender.
-
-Após esse período eu realizei o vestibular da ETEC, onde passei em segundo lugar e comecei a fazer o Ensino Médio integrado ao Ensino Técnico em Desenvolvimento de Sistemas, no qual concluí em 2021.
-
-Agora busco me desenvolver nessa área e alcançar novos objetivos, procurando sempre me aprimorar e expandir meus horizontes.
+        Tenho 18 anos, sou programador, Técnico em Desenvolvimento de Sistemas. Sempre gostei da programação e desde cedo minha curiosidade me levou a querer entender como as coisas funcionavam. Não me bastava apenas olhar para um computador e aceitar aquela ideia de bits e informações, e foi assim que comecei meus estudos.
+        Em 2016 comecei um curso introdutório à informática, e depois disso eu tive certeza do que queria aprender.
+        Após esse período eu realizei o vestibular da ETEC, onde passei em segundo lugar e comecei a fazer o Ensino Médio integrado ao Ensino Técnico em Desenvolvimento de Sistemas, no qual concluí em 2021.
+        Agora busco me desenvolver nessa área e alcançar novos objetivos, procurando sempre me aprimorar e expandir meus horizontes.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: 'EzOffice',
-    description: "Meu Trabalho de Conclusão de Curso (TCC), onde pensei, projetei, e desenvolvi uma plataforma de trabalho à distância com diversas funcionalidades e ferramentas. ",
-      image: '/images/1.png',
+    description: "Meu Trabalho de Conclusão de Curso (TCC), desenvolvi uma plataforma de trabalho à distância com diversas funcionalidades e ferramentas. ",
+      image: '/images/1.jpeg',
       tags: ['PHP', 'Laravel', 'VueJS', 'Inertia', 'Tailwind'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -35,12 +35,39 @@ export const projects = [
     visit: 'https://github.com/Alef185/portfolioLuana',
     id: 3,
   },
+  {
+    title: 'Chat AlefiDev',
+    description: "Aplicação Web de Chat feita a partir de react js, utilizando firebase para base de dados e chat engine",
+    image: '/images/5.png',
+    tags: ['ReactJS', 'Firebase', 'CSS3', 'ChatEngine'],
+    source: 'https://alefidev-chat.vercel.app',
+    visit: 'https://github.com/Alef185/alefidev-chat',
+    id: 4,
+  },
+  {
+    title: 'Landing Page',
+    description: "Aplicação Web de Chat feita a partir de react js, utilizando firebase para base de dados e chat engine",
+    image: '/images/6.png',
+    tags: ['ReactJS', 'Firebase', 'CSS3', 'ChatEngine'],
+    source: 'https://landingpage-alefidev.vercel.app/',
+    visit: 'https://github.com/Alef185/landingpage-css',
+    id: 5,
+  },
+  {
+    title: 'ColorPicker',
+    description: "Ferramenta Web que possibilita selecionar cores hexadecimais, rgb, rgba, entre outros.",
+    image: '/images/7.png',
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'ColorPickr'],
+    source: 'https://colorpicker-alefidev.vercel.app.vercel.app/',
+    visit: 'https://github.com/alef185/colorpicker-alefidev',
+    id: 6,
+  },
 ];
 
 export const TimeLineData = [
   { year: 2016, text: 'Curso de Programação Web', },
   { year: 2018, text: 'Curso de Lógica de Programação', },
   { year: 2019, text: 'Técnico em Desenvolvimento de Sistemas', },
-  { year: 2020, text: 'Desenvolvimento do TCC', },
+  { year: 2020, text: 'Desenvolvimento do TCC, Estudo de novas linguagens', },
   { year: 2021, text: 'Aprofundamento nos estudos das principais linguagens Web', },
 ];

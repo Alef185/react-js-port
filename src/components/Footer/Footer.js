@@ -24,13 +24,13 @@ const Footer = () => {
           <Slogan>Araraquara, SP - Brasil</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/Alef185">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/alef-souza-rosa/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.instagram.com/alef_eu/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>

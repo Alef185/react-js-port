@@ -17,14 +17,13 @@ export const projects = [
     visit: 'https://github.com/Alef185/ColorGenerator',
     id: 1,
   },
-
   {
-    title: 'Calendário',
-    description: "Aplicação web simples com um design moderno e minimalista, um calendário com tema escuro/claro na qual é possível visualizar anos passados e seguintes através de um library javascript",
+    title: 'App TODOLIST',
+    description: "Aplicação web que permite gerenciar tarefas que ainda precisam ser completadas.",
       image: '/images/3.png',
-      tags: ['HTML5', 'CSS3', 'JavaScript'],
-    source: 'https://calendar-alefidev.vercel.app',
-    visit: 'https://github.com/Alef185/calendar-css',
+      tags: ['NuxtJS', 'JavaScript', 'VueJS', 'CSS3'],
+    source: 'https://alefidev-tasks.vercel.app/',
+    visit: 'https://github.com/Alef185/AlefiDev-TaskList',
     id: 2,
   },
   {
@@ -80,6 +79,15 @@ export const projects = [
     source: 'https://calculator-alefidev.vercel.app',
     visit: 'https://github.com/Alef185/calculator-css',
     id: 8,
+  },
+  {
+    title: 'Calendário',
+    description: "Aplicação web simples com um design moderno e minimalista, um calendário com tema escuro/claro na qual é possível visualizar anos passados e seguintes através de um library javascript",
+      image: '/images/10.png',
+      tags: ['HTML5', 'CSS3', 'JavaScript'],
+    source: 'https://calendar-alefidev.vercel.app',
+    visit: 'https://github.com/Alef185/calendar-css',
+    id: 10,
   },
   
 ];

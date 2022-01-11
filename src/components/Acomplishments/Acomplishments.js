@@ -4,8 +4,8 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 245, text: 'Contribuições no Github'},
-  { number: 35, text: 'Repositórios no Github', },
+  { number: 260, text: 'Contribuições no Github'},
+  { number: 45, text: 'Repositórios no Github', },
   { number: 2000, text: 'Linhas de código escritas em um único dia', },
   { number: 15, text: 'Sites projetados e desenvolvidos', }
 ];

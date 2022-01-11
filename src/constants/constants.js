@@ -4,19 +4,20 @@ export const projects = [
     description: "Meu Trabalho de Conclusão de Curso (TCC), desenvolvi uma plataforma de trabalho à distância com diversas funcionalidades e ferramentas. ",
       image: '/images/1.jpeg',
       tags: ['PHP', 'Laravel', 'VueJS', 'Inertia', 'Tailwind'],
-    source: 'https://google.com',
+    source: 'https://github.com/Alef185/TCC-Desenvolvimento-de-Sistemas',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'Calculadora',
-    description:"Uma calculadora simples para treinar conhecimentos em html, css. Design responsivo, tema escuro e claro.",
-    image: '/images/2.png',
-    tags: ['HTML5', 'CSS3'],
-    source: 'https://calculator-alefidev.vercel.app',
-    visit: 'https://github.com/Alef185/calculator-css',
+    title: 'AlefiDev Geracor',
+    description: "Ferramenta Web que gera uma paleta de cores de forma aleatória utilizando um algorítmo javascript.",
+    image: '/images/9.png',
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    source: 'https://alefidev-color.vercel.app/',
+    visit: 'https://github.com/Alef185/ColorGenerator',
     id: 1,
   },
+
   {
     title: 'Calendário',
     description: "Aplicação web simples com um design moderno e minimalista, um calendário com tema escuro/claro na qual é possível visualizar anos passados e seguintes através de um library javascript",
@@ -46,7 +47,7 @@ export const projects = [
   },
   {
     title: 'Landing Page',
-    description: "Aplicação Web de Chat feita a partir de react js, utilizando firebase para base de dados e chat engine",
+    description: "Design responsivo e minimalista de Landing Page feito a partir de HTML e CSS",
     image: '/images/6.png',
     tags: ['HTML5', 'CSS3',],
     source: 'https://landingpage-alefidev.vercel.app/',
@@ -54,14 +55,33 @@ export const projects = [
     id: 5,
   },
   {
-    title: 'ColorPicker',
+    title: 'AlefiDev Colors',
     description: "Ferramenta Web que possibilita selecionar cores hexadecimais, rgb, rgba, entre outros.",
     image: '/images/7.png',
     tags: ['HTML5', 'CSS3', 'JavaScript', 'ColorPickr'],
-    source: 'https://colorpicker-alefidev.vercel.app.vercel.app/',
+    source: 'https://colorpicker-alefidev.vercel.app/',
     visit: 'https://github.com/alef185/colorpicker-alefidev',
     id: 6,
   },
+  {
+    title: 'AlefiDev HUB',
+    description: "Website que gera diversas informações através de API's, como OpenWeather, Awesome API, e ainda possui um relógio e cronômetro em javascript.",
+    image: '/images/8.png',
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'APIs'],
+    source: 'https://alefidev-hub.vercel.app/',
+    visit: 'https://github.com/Alef185/AlefiDev-HUB',
+    id: 7,
+  },
+  {
+    title: 'Calculadora',
+    description:"Uma calculadora simples para treinar conhecimentos em html, css. Design responsivo, tema escuro e claro.",
+    image: '/images/2.png',
+    tags: ['HTML5', 'CSS3'],
+    source: 'https://calculator-alefidev.vercel.app',
+    visit: 'https://github.com/Alef185/calculator-css',
+    id: 8,
+  },
+  
 ];
 
 export const TimeLineData = [

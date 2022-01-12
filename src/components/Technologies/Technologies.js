@@ -20,7 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            ReactJS, Tailwind, CSS, Bootstrap
+            ReactJS, NuxtJS, Tailwind, CSS3, Bootstrap
           </ListParagraph>
         </ListContainer>
       </ListItem>

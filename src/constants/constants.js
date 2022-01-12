@@ -89,7 +89,15 @@ export const projects = [
     visit: 'https://github.com/Alef185/calendar-css',
     id: 10,
   },
-  
+  {
+    title: 'Segundo Portfólio',
+    description: "Portfólio voltado para a área de Desenvolvimento Web onde mostro algumas habilidades de Front End através de css e javascript",
+      image: '/images/11.png',
+      tags: ['HTML5', 'CSS3', 'JavaScript'],
+    source: 'https://calendar-alefidev.vercel.app',
+    visit: 'https://github.com/Alef185/calendar-css',
+    id: 11,
+  },
 ];
 
 export const TimeLineData = [
@@ -98,4 +106,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Técnico em Desenvolvimento de Sistemas', },
   { year: 2020, text: 'Desenvolvimento do TCC, Estudo de novas linguagens', },
   { year: 2021, text: 'Aprofundamento nos estudos das principais linguagens Web', },
+  { year: 2022, text: 'Procurando por uma oportunidade na área de Desenvolvimento', },
 ];

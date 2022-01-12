@@ -94,8 +94,8 @@ export const projects = [
     description: "Portfólio voltado para a área de Desenvolvimento Web onde mostro algumas habilidades de Front End através de css e javascript",
       image: '/images/11.png',
       tags: ['HTML5', 'CSS3', 'JavaScript'],
-    source: 'https://calendar-alefidev.vercel.app',
-    visit: 'https://github.com/Alef185/calendar-css',
+    source: 'https://alefsouzarosa.vercel.app',
+    visit: 'https://github.com/Alef185/CurriculoPortfolio',
     id: 11,
   },
 ];

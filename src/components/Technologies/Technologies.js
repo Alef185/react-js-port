@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      Já trabalhei com várias tecnologias de desenvolvimento web e aplicações.
+      Já trabalhei com várias tecnologias de desenvolvimento web, mobile e testes.
       Do Back-end ao Design.
     </SectionText>
     <List>
@@ -20,7 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            ReactJS, NuxtJS, Tailwind, CSS3, Bootstrap
+            Javascript, ReactJS, NuxtJS, NextJS, Tailwind, CSS3, Bootstrap, SCSS, HTML
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            NodeJS, MySql, PHP, Laravel, VueJs, JavaScript
+            NodeJS, MySql, PostgreSQL, PHP, Laravel, Java, C++, C#
           </ListParagraph>
         </ListContainer>
       </ListItem>

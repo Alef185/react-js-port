@@ -46,10 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Sobre Mim</SectionTitle>
       <SectionText>
-        Tenho 18 anos, sou programador, Técnico em Desenvolvimento de Sistemas. Sempre gostei da programação e desde cedo minha curiosidade me levou a querer entender como as coisas funcionavam. Não me bastava apenas olhar para um computador e aceitar aquela ideia de bits e informações, e foi assim que comecei meus estudos.
-        Em 2016 comecei um curso introdutório à informática, e depois disso eu tive certeza do que queria aprender.
-        Após esse período eu realizei o vestibular da ETEC, onde passei em segundo lugar e comecei a fazer o Ensino Médio integrado ao Ensino Técnico em Desenvolvimento de Sistemas, no qual concluí em 2021.
-        Agora busco me desenvolver nessa área e alcançar novos objetivos, procurando sempre me aprimorar e expandir meus horizontes.
+        Me considero uma pessoa criativa, proativa, e que quer sempre buscar a melhor forma de solucionar os problemas que aparecem, sou dedicado, esforçado e tenho facilidade em aprender coisas novas, estou sempre buscando agregar meus conhecimentos e me desenvolver como pessoa e profissional.
+        Atualmente estou atuando como Analista de Qualidade, responsável pela qualidade dos projetos web e mobile, melhoria de processos, análise dos sistemas, análise de requisitos. Possuo experiência em desenvolvimento web e mobile, além de design e prototipação.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

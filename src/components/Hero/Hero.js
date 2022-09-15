@@ -13,7 +13,7 @@ const Hero = (props) => (
           Álef de Souza Rosa
         </SectionTitle>
         <SectionText>
-        Sou analista de qualidade, desenvolvedor web e mobile, web designer e ilustrador por hobbie.
+        Sou analista de qualidade, desenvolvedor web e mobile, web designer e ilustrador por hobby.
         </SectionText>
         <Button onClick={props.handleClick}><Link href='#about'>Ler mais</Link></Button>
       </LeftSection>

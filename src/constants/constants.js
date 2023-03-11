@@ -104,7 +104,7 @@ export const TimeLineData = [
   { year: 2016, text: 'Curso de Programação Web', },
   { year: 2018, text: 'Curso de Lógica de Programação', },
   { year: 2019, text: 'Técnico em Desenvolvimento de Sistemas', },
-  { year: 2020, text: 'Desenvolvimento do TCC, Estudo de novas linguagens', },
   { year: 2021, text: 'Aprofundamento nos estudos das principais linguagens Web', },
-  { year: 2022, text: 'Procurando por uma oportunidade na área de Desenvolvimento', },
+  { year: 2022, text: 'Analista de Qualidade e Desenvolvedor Mobile', },
+  { year: 2023, text: 'Analista de Qualidade || e Desenvolvedor FullStack', },
 ];
